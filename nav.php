@@ -50,6 +50,6 @@ Description: preperforably top
                         Our Clients
                     </a></li>
                     <li><a href="registration.php">Register/Sigin</a></li>
-                    <li><a href="faqs.php">FAQs</a></li>
+                    
                     <li><a href="contact.php">Contact Us</a></li>
         </ul> </ul>
