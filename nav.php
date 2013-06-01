@@ -6,7 +6,7 @@ Description: preperforably top
 ***********************************/
 ?>
 <ul class="nav nav-pills pull-right" style="padding-top: 15px;margin-bottom:0">
-          <li class="active"><a href="home.php">Home</a></li>
+          <li><a href="home.php">Home</a></li>
           <li class="dropdown">
           <a href="about.php" class="dropdown-toggle" data-toggle="dropdown">About <b class="caret"></b></a>
                   <ul class="dropdown-menu">
