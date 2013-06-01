@@ -70,6 +70,5 @@ hin our reset.less, we have removed some elements specifically for Bootstrap.Wit
         })
       }(window.jQuery)
     </script>
-    <script src="assets/js/holder/holder.js"></script>
   </body>
 </html>
