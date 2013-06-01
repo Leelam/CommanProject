@@ -40,14 +40,14 @@ hin our reset.less, we have removed some elements specifically for Bootstrap.Wit
              <h2>Quick Contact</h2> 
              <div class="footer-content">
                 <form>
-                  <span>Name</span>
-                  <input type="text">
-                  <span>Phone</span>
-                  <input type="text">
-                  <span>Message</span>
-                  <textarea></textarea> 
+                  
+                  <input type="text" placeholder="Phone Number">
+                  
+                  <input type="text" placeholder="Phone Number">
+                  
+                  <textarea rows="4" placeholder="Message"></textarea> 
 
-                  <button>Submit</button>
+                  <button class="btn">Submit</button>
                 </form>
              </div>
       </div>
