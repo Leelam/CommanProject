@@ -468,3 +468,13 @@ background: #fa3031 !important;
 .borange {
 background: #f88529 !important;
 }
+figure{
+  margin: 0;
+  padding: 0;
+}
+#the_real_content{
+  min-height: 600px;
+}
+.text{
+  padding-top: 10px;
+}
