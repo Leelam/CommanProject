@@ -420,3 +420,17 @@ opacity: .25;
   bottom: 270px;
 }
 
+.carousel .item {
+height: 320px;
+}
+
+.carousel-caption {
+
+margin-top: 85px;
+}
+
+.carousel-control {
+
+opacity: 0.0;
+filter: alpha(opacity=0);
+}

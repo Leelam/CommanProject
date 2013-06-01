@@ -25,7 +25,7 @@ include 'header.php';
 								<div class="carousel-caption">
 									<h1>Example headline.</h1>
 									<p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-									<a class="btn btn-large btn-primary" href="#">Sign up today</a>
+									
 								</div>
 							</div>
 						</div>
@@ -35,7 +35,7 @@ include 'header.php';
 								<div class="carousel-caption">
 									<h1>Another example headline.</h1>
 									<p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-									<a class="btn btn-large btn-primary" href="#">Learn more</a>
+									
 								</div>
 							</div>
 						</div>
@@ -45,7 +45,7 @@ include 'header.php';
 								<div class="carousel-caption">
 									<h1>One more for good measure.</h1>
 									<p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-									<a class="btn btn-large btn-primary" href="#">Browse gallery</a>
+									
 								</div>
 							</div>
 						</div>
