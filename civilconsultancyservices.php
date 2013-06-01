@@ -16,7 +16,7 @@ include 'header.php';
     <div class="container">
       <div class="row-fluid">
       <div class="span12">
-              <h1>Legal Advisory Services</h1>
+              <h1>Civil Consultancy Services</h1>
       </div>
       </div>
      </div>
