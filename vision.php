@@ -26,7 +26,7 @@ include 'header.php';
 
         <div class="container">
           <div class="row-fluid">
-        <div class="span12">
+        <div class="span9">
           <p>We INFRADALY would like to be platform where a full menu of project management solutions made 
 
 
@@ -82,6 +82,11 @@ Chartered Accountants, Social &amp; Environmental Scientists and Legal Advisory 
 
 clients to address specific infrastructure procurement challenges.
 </p>
+            </div>
+            <div class="span3">
+<?php 
+include_once 'sidebar.php';
+?>
             </div>
         </div>
   </div>
