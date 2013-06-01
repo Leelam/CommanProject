@@ -16,7 +16,7 @@ include 'header.php';
     <div class="container">
       <div class="row-fluid">
       <div class="span12">
-              <h1>Company Profile</h1>
+              <h1>Director's Message</h1>
       </div>
       </div>
      </div>
