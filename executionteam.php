@@ -2,6 +2,8 @@
 <?php
 include 'head.php';
 include 'header.php';
+include_once('assets/inc/Connect.class.php');
+$obj=new connect();
 ?>
 
     <!-- NAVBAR
@@ -27,8 +29,34 @@ include 'header.php';
         <div class="container">
           <div class="row-fluid">
         <div class="span9">
-          <h4>Updating the content</h4>
-            </div>
+         <?php
+$Execution=$obj->conn->prepare("SELECT * FROM civil_et");
+$Execution->execute();
+                    echo "   <table class='table table-bordered'>";
+echo "<th>s.no</th>";
+echo "<th>Name of the Firm/Contractor</th>";
+echo "<th>Nature of work experience</th>";
+echo "<th>Location</th>";
+echo "<th>Contact Details</th>";
+echo "<th>Company Profile</th>";
+echo "<th>Remarks</th>";
+while($Executionteam=$Execution->fetch()){
+?>
+<tr>
+<td><?php echo $Executionteam['sno']; ?></td>
+<td><?php echo $Executionteam['fname']; ?></td>
+<td><?php echo $Executionteam['designation']; ?></td>
+<td>Hyderabad</td>
+<td><?php echo $Executionteam['phone']; ?></td>
+<td>leelam</td>
+<td>No remarks</td>
+</tr>
+                       <?php
+}
+echo "</table>";
+?>   
+                    </div>
+            
             <div class="span3">
 <?php  
 include_once 'sidebar.php';

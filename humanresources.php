@@ -2,6 +2,8 @@
 <?php
 include 'head.php';
 include 'header.php';
+include_once('assets/inc/Connect.class.php');
+$obj=new connect();
 ?>
 
     <!-- NAVBAR
@@ -27,7 +29,33 @@ include 'header.php';
         <div class="container">
           <div class="row-fluid">
         <div class="span9">
-          <h4>Updating the content</h4>
+          <?php
+$Execution=$obj->conn->prepare("SELECT * FROM civil_hr");
+$Execution->execute();
+                    echo "   <table class='table table-bordered'>";
+echo "<th>s.no</th>";
+echo "<th>Name</th>";
+echo "<th>S.No. Name Field of Expertise</th>";
+echo "<th>Years of Experience</th>";
+echo "<th>Years of Experience Present Designation</th>";
+echo "<th>Contact Details</th>";
+echo "<th>Resume</th>";
+while($Executionteam=$Execution->fetch()){
+?>
+<tr>
+<td><?php echo $Executionteam['sno']; ?></td>
+<td><?php echo $Executionteam['fname']; ?></td>
+<td><?php echo $Executionteam['designation']; ?></td>
+<td>Hyderabad</td>
+<td><?php echo $Executionteam['phone']; ?></td>
+<td>leelam</td>
+<td>Download</td>
+</tr>
+                       <?php
+}
+echo "</table>";
+?>   
+         
             </div>
             <div class="span3">
 <?php  
