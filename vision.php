@@ -34,6 +34,7 @@ include 'header.php';
 <li>
 	We shall be a professionally managed organization committed to total customer satisfaction
 </li>
+</ul>
 <ul>
 <h4><b>What We Believe</b></h4>
 <ul>
