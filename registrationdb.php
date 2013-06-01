@@ -38,6 +38,10 @@ if($_POST['password'] != $_POST['repassword'])
 }elseif(($_POST['designation'] == 'Plant And Machinery') AND isset($_POST['sub']))
 {
 	$insert=$obj->conn->exec("INSERT INTO civil_pm(fname,lname,username,password,repassword,email,phone,designation) VALUES ('$_POST[fname]','$_POST[lname]','$_POST[username]','$_POST[password]','$_POST[repassword]','$_POST[email]','$_POST[phone]','$_POST[designation]')");
+}elseif(($_POST['designation'] == 'Plant And Machinery' OR 'Human Resources' OR 'Supply Chain Management' OR 'Execution Team') AND isset($_POST['sub'])){
+	echo "You Have Registred With Infradaily..Your Activation Link Has been sent your mail";
+}else{
+	echo "You Have not Registred With Infradaily..Please registered again";
 }
 ?>
 
