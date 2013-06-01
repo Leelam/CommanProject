@@ -1,10 +1,4 @@
-<?php session_start();
-/*****************************
-File Name: sessions.php
-Author : Gopala Krishna
-User Access Type : All
-*/
-?><?php
+<?php
 //echo $_COOKIE['applink'];
 
 include_once 'config.var.php';
