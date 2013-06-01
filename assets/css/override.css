@@ -491,3 +491,4 @@ figure{
   width: 1.2em; /*same as padding-left set on li*/
 
 }
+.nav-tabs > li, .nav-pills > li { float: left; font-size: 15px; font-weight: bold; }
