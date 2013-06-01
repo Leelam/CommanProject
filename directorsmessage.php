@@ -27,7 +27,7 @@ include 'header.php';
         <div class="container">
           <div class="row-fluid">
         <div class="span9">
-          <h2>Updating the content</h2>
+          <h4>Updating the content</h4>
             </div>
             <div class="span3">
 <?php  
