@@ -63,7 +63,7 @@ include 'header.php';
                     </div>
                     <div class="span6">
                     	<div class="area">
-                            <form class="form-horizontal" method="POST" name="form" action="">
+                            <form class="form-horizontal" method="POST" name="form" action="registrationdb.php">
                             	<div class="heading">
                                     <h4 class="form-heading">Sign Up</h4>
                                 </div>
