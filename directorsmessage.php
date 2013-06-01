@@ -11,7 +11,7 @@ include 'header.php';
     <!-- Marketing messaging and featurettes
     ================================================== -->
     <!-- Wrap the rest of the page in another container to center all the content. -->
-    
+    <div id="the_real_content">
   <header class="page-header">
     <div class="container">
       <div class="row-fluid">
@@ -36,7 +36,7 @@ include_once 'sidebar.php';
             </div>
         </div>
   </div>
-
+</div>
 
 
     <!-- Footer
