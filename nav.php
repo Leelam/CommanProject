@@ -11,7 +11,7 @@ Description: preperforably top
           <a href="about.php" class="dropdown-toggle" data-toggle="dropdown">About <b class="caret"></b></a>
                   <ul class="dropdown-menu">
                     <li><a href="companyprofile.php">Company Profile</a></li>
-                    <li><a href="directormessage.php">Director's Message</a></li>
+                    <li><a href="directorsmessage.php">Director's Message</a></li>
                     <li><a href="vision.php">Vision</a></li>
                     <li><a href="obectives.php">Qualit Polic & Obectives</a></li>
                 </ul>
