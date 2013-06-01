@@ -63,51 +63,73 @@ include 'header.php';
                     </div>
                     <div class="span6">
                     	<div class="area">
-                            <form class="form-horizontal">
-                                <div class="heading">
+                            <form class="form-horizontal" method="POST" name="form" action="">
+                            	<div class="heading">
                                     <h4 class="form-heading">Sign Up</h4>
                                 </div>
-                              	  <div class="control-group">
-                                    <label class="control-label" for="inputFirst">First Name</label>
-                                    <div class="controls">
-                                        <input type="text" id="inputFirst" placeholder="E.g. Ashwin">
-                                    </div>
-                                </div>
-                                <div class="control-group">
-                                    <label class="control-label" for="inputLast">Last Name</label>
-                                    <div class="controls">
-                                        <input type="text" id="inputLast" placeholder="E.g. Hegde">
-                                    </div>
-                                </div>
-                                <div class="control-group">
-                                    <label class="control-label" for="inputEmail">Email</label>
-                                    <div class="controls">
-                                        <input type="text" id="inputEmail" placeholder="E.g. ashwinh@cybage.com">
-                                    </div>
-                                </div>
-                                <div class="control-group">
-                                    <label class="control-label" for="inputUser">Username</label>
-                                    <div class="controls">
-                                        <input type="text" id="inputUser" placeholder="E.g. ashwinhegde">
-                                    </div>
-                                </div>
-                                <div class="control-group">
-                                    <label class="control-label" for="inputPassword">Password</label>
-                                    <div class="controls">
-                                        <input type="password" id="inputPassword" placeholder="Min. 8 Characters">
-                                    </div>
-                                </div>
-                                <div class="control-group">
-                                    <div class="controls">
-                                        <label class="checkbox">
-                                            <input type="checkbox"> I agree all your <a href="#">Terms of Services</a>
-                                        </label>
-                                        <button type="submit" class="btn btn-success">Sign Up</button>
-                                        <button type="button" class="btn">Help</button>
-                                    </div>
-                                </div>	
-                            
-                            </form>	
+<div class="control-group">
+	<label class="control-label" for="firstname">First Name</label>
+	<div class="controls">
+		<input type="text" name="fname" placeholder="mahesh" required>
+	</div>
+</div>
+<div class="control-group">
+	<label class="control-label" for="lastname">Last Name</label>
+	<div class="controls">
+		<input type="text" name="lname" placeholder="chimmiri" required>
+	</div>
+</div>
+<div class="control-group">
+	<label class="control-label" for="username">Username</label>
+	<div class="controls">
+		<input type="text" name="username" placeholder="maheshnaughty" required>
+	</div>
+</div>
+<div class="control-group">
+	<label class="control-label" for="lastname">Password</label>
+	<div class="controls">
+		<input type="password" name="password"  required>
+	</div>
+</div>
+<div class="control-group">
+	<label class="control-label" for="lastname">Re-Type</label>
+	<div class="controls">
+		<input type="password" name="repassword"  required>
+	</div>
+</div>
+<div class="control-group">
+	<label class="control-label" for="email" >Email</label>
+	<div class="controls">
+		<input type="email" name="email" placeholder="mahesh@leelam.com" required>
+	</div>
+</div>
+<div class="control-group">
+	<label class="control-label" for="phonenumber">Phone Number</label>
+	<div class="controls">
+		<input type="number" name="phone" placeholder="8121542630" required>
+	</div>
+</div>
+<div class="control-group">
+	<label class="control-label" for="designation">Designation</label>
+	<div class="controls">
+		<select name="designation" required>
+			<option value="Not Selected">Select Designation</option>
+<option value="Execution Team">Execution Team</option>
+<option value="Supply Chain Management">Suppl Chain Management</option>
+<option value="Human Resources">Human Resources</option>
+<option value="Plant And Machinery">Plant And Machinery</option>
+		</select>
+	</div>
+</div>
+<div class="control-group">
+    <div class="controls">
+      
+      <button type="submit" class="btn btn-primary" name="sub">Submit</button>
+    </div>
+  </div>
+</form>
+
+
 						</div>                            
                     </div>
                 </div>
