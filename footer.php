@@ -13,7 +13,16 @@ Description: preperforably top
   <footer class="page-footer">
     <div class="container">
       <div class="row-fluid">
-        <div class="span12">@ copyrights InfraDaily 2013. </div>
+        <div class="span5">@ copyrights InfraDaily 2013. </div>
+        <div class="span7"><div class="social pull-right">
+                      <a href="#" class="bblue"><i class="icon-facebook"></i></a>
+                      <a href="#" class="borange"><i class="icon-google-plus"></i></a> 
+                      <a href="#" class="blightblue"><i class="icon-twitter"></i></a>
+                      <a href="#" class="bviolet"><i class="icon-linkedin"></i></a>
+                      <a href="#" class="bred"><i class="icon-pinterest"></i></a>
+                      <a href="#" class="borange"><i class="icon-rss"></i></a>
+                    </div>
+                  </div>
       </div>
      </div>
   </footer>

@@ -329,7 +329,8 @@ p{
   font-size: 18px;
 }
 .page-footer{
-  min-height: 200px;
+  height: 40px;
+  line-height: 40px;
 }
 
 .container{
@@ -433,4 +434,37 @@ margin-top: 85px;
 
 opacity: 0.0;
 filter: alpha(opacity=0);
+}
+.social a {
+width: 24px;
+height: 24px;
+margin: 0px 3px;
+line-height: 24px;
+color: #fff;
+display: inline-block;
+text-align: center;
+}
+.bblue,.borange,.blightblue,.bviolet,.bred,.borange{
+color: #fff !important;
+border: 0px !important;
+}
+.bblue {
+background: #1171a3 !important;
+
+}
+.borange {
+background: #f88529 !important;
+}
+.blightblue {
+background: #52b9e9 !important;
+
+}
+.bviolet {
+background: #932ab6 !important;
+}
+.bred {
+background: #fa3031 !important;
+}
+.borange {
+background: #f88529 !important;
 }
