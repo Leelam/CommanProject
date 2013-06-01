@@ -39,13 +39,13 @@ include 'header.php';
                                 <div class="control-group">
                                     <label class="control-label" for="inputUsername">Username</label>
                                     <div class="controls">
-                                        <input type="text" id="inputUsername" placeholder="E.g. ashwinhegde">
+                                        <input type="text" id="inputUsername" placeholder="E.g. ashwinhegde" required>
                                     </div>
                                 </div>
                                 <div class="control-group">
                                     <label class="control-label" for="inputPassword">Password</label>
                                     <div class="controls">
-                                        <input type="password" id="inputPassword" placeholder="Min. 8 Characters">
+                                        <input type="password" id="inputPassword" placeholder="Min. 8 Characters" required>
                                     </div>
                                 </div>
                                 <div class="control-group">
