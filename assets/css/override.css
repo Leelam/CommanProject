@@ -3,11 +3,11 @@
     /* Padding below the footer and lighter body text */
 
     body {
-    color: #5a5a5a;
+    color: #444;
       /* fallback */
-    background-color: #fff;
+    background-color: #fdfdfd;
   
-
+font-family:  "PT Sans","verdana", Arial, sans-serif;
     }
 
 h1,h2,h3,h4,h5,h6{
@@ -477,4 +477,17 @@ figure{
 }
 .text{
   padding-top: 10px;
+}
+.text li {
+  padding-left: 1.2em;
+  list-style: none;
+}
+
+.text li:before {
+  content: "\F141 "; /*fontawesome char code*/;
+  font-family: FontAwesome; /* or whatever */
+  display: inline-block;
+  margin-left: -1.2em; /*same as padding-left set on li*/
+  width: 1.2em; /*same as padding-left set on li*/
+
 }
