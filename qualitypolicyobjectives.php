@@ -26,7 +26,7 @@ include 'header.php';
 
         <div class="container">
           <div class="row-fluid">
-        <div class="span12">
+        <div class="span9">
           <p>
           	<b>Quality Policy:</b> We are committed to comply with the requirements of Quality Management System and continuously strive to improve our performance and achieve the customer satisfaction by providing the necessary services on time.
 </p>
@@ -39,6 +39,11 @@ include 'header.php';
 <li>Continual Improvement in Productivity of our Resources</li>
 </ul>
             </div>
+            <div class="span3">
+          <?php 
+          include_once 'sidebar.php';
+          ?>
+        </div>
         </div>
   </div>
 </div>
