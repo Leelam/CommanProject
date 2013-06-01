@@ -2,6 +2,8 @@
 <?php
 include 'head.php';
 include 'header.php';
+include_once('assets/inc/Connect.class.php');
+$obj=new connect();
 ?>
 
     <!-- NAVBAR
@@ -12,28 +14,35 @@ include 'header.php';
     ================================================== -->
     <!-- Wrap the rest of the page in another container to center all the content. -->
     <div id="the_real_content">
-  <header class="page-header">
-    <div class="container">
-      <div class="row-fluid">
-      <div class="span12">
-              <h1>Academy-Industry Interface</h1>
-      </div>
-      </div>
-     </div>
-  </header>
+  
 
 
 
         <div class="container">
           <div class="row-fluid">
-        <div class="span9">
-          <h4>Updating the content</h4>
-            </div>
-            <div class="span3">
-<?php  
-include_once 'sidebar.php';
+        <div class="span12">
+          <?php
+if($_POST['password'] != $_POST['repassword'])
+{
+	echo "both passwords are not matched";
+}elseif(($_POST['designation'] == 'Execution Team') AND isset($_POST['sub']))
+{
+	$insert=$obj->conn->exec("INSERT INTO civil_et(fname,lname,username,password,repassword,email,phone,designation) VALUES ('$_POST[fname]','$_POST[lname]','$_POST[username]','$_POST[password]','$_POST[repassword]','$_POST[email]','$_POST[phone]','$_POST[designation]')");
+
+}elseif(($_POST['designation'] == 'Supply Chain Management') AND isset($_POST['sub']))
+{
+	$insert=$obj->conn->exec("INSERT INTO civil_scm(fname,lname,username,password,repassword,email,phone,designation) VALUES ('$_POST[fname]','$_POST[lname]','$_POST[username]','$_POST[password]','$_POST[repassword]','$_POST[email]','$_POST[phone]','$_POST[designation]')");
+}elseif(($_POST['designation'] == 'Human Resources') AND isset($_POST['sub']))
+{
+	$insert=$obj->conn->exec("INSERT INTO civil_hr(fname,lname,username,password,repassword,email,phone,designation) VALUES ('$_POST[fname]','$_POST[lname]','$_POST[username]','$_POST[password]','$_POST[repassword]','$_POST[email]','$_POST[phone]','$_POST[designation]')");
+}elseif(($_POST['designation'] == 'Plant And Machinery') AND isset($_POST['sub']))
+{
+	$insert=$obj->conn->exec("INSERT INTO civil_pm(fname,lname,username,password,repassword,email,phone,designation) VALUES ('$_POST[fname]','$_POST[lname]','$_POST[username]','$_POST[password]','$_POST[repassword]','$_POST[email]','$_POST[phone]','$_POST[designation]')");
+}
 ?>
+
             </div>
+            
         </div>
   </div>
 </div>
