@@ -13,7 +13,7 @@ Description: preperforably top
                     <li><a href="companyprofile.php">Company Profile</a></li>
                     <li><a href="directorsmessage.php">Director's Message</a></li>
                     <li><a href="vision.php">Vision</a></li>
-                    <li><a href="obectives.php">Qualit Polic & Obectives</a></li>
+                    <li><a href="qualityassurance.php">Qualit Polic & Obectives</a></li>
                 </ul>
             </li>
           <li class="dropdown">
