@@ -45,11 +45,11 @@ while($Executionteam=$Execution->fetch()){
 <tr>
 <td><?php echo $Executionteam['sno']; ?></td>
 <td><?php echo $Executionteam['fname']; ?></td>
-<td><?php echo $Executionteam['designation']; ?></td>
-<td>Hyderabad</td>
+<td></td>
+<td></td>
 <td><?php echo $Executionteam['phone']; ?></td>
-<td>leelam</td>
-<td>No remarks</td>
+<td></td>
+<td></td>
 </tr>
                        <?php
 }
