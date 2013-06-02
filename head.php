@@ -7,10 +7,10 @@ File : head.php
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>Carousel Template &middot; Bootstrap</title>
+	<title>Infradaily</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="">
-	<meta name="keywords" content="">
+	<meta name="description" content="application for construction company">
+	<meta name="keywords" content="civil,infradaily,road,construction">
 	<meta name="author" content="Gopala krishna">
 
 	<!-- Le styles -->
