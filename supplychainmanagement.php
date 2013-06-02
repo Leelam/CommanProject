@@ -28,7 +28,7 @@ $obj=new connect();
 
         <div class="container">
           <div class="row-fluid">
-        <div class="span8">
+        <div class="span9">
            <?php
 $Execution=$obj->conn->prepare("SELECT * FROM civil_scm");
 $Execution->execute();
@@ -56,7 +56,7 @@ while($Executionteam=$Execution->fetch()){
 echo "</table>";
 ?>   
             </div>
-            <div class="span4">
+            <div class="span3">
 <?php  
 include_once 'servicessidebar.php';
 ?>

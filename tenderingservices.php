@@ -26,10 +26,10 @@ include 'header.php';
 
         <div class="container">
           <div class="row-fluid">
-        <div class="span8">
+        <div class="span9">
           <h4>Updating the content</h4>
             </div>
-            <div class="span4">
+            <div class="span3">
 <?php  
 include_once 'servicessidebar.php';
 ?>
