@@ -17,7 +17,7 @@ Description: preperforably right, also use left
           <li><a href="humanresources.php"><i class="icon-chevron-right"></i> Human Resources</a></li>
           <li><a href="plantmachinery.php"><i class="icon-chevron-right"></i> Plant & Machinery</a></li>
           <li><a href="financeaccounting.php"><i class="icon-chevron-right"></i> Finance & Accounting</a></li>
-          <li><a href="civilconsultancyservices.php"><i class="icon-chevron-right"></i> Finance & Accounting</a></li>
-          <li><a href="academyindustryinterface.php"><i class="icon-chevron-right"></i> Finance & Accounting</a></li>
+          <li><a href="civilconsultancyservices.php"><i class="icon-chevron-right"></i> Civil Consultancy Services</a></li>
+          <li><a href="academyindustryinterface.php"><i class="icon-chevron-right"></i> Academy-Industry Interface</a></li>
         </ul>
 </div>

@@ -28,7 +28,7 @@ $obj=new connect();
 
         <div class="container">
           <div class="row-fluid">
-        <div class="span9">
+        <div class="span8">
           <?php
 $Execution=$obj->conn->prepare("SELECT * FROM civil_pm");
 $Execution->execute();
@@ -59,9 +59,9 @@ echo "</table>";
 ?>   
          
             </div>
-            <div class="span3">
+            <div class="span4">
 <?php  
-include_once 'sidebar.php';
+include_once 'servicessidebar.php';
 ?>
             </div>
         </div>
