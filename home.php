@@ -56,15 +56,16 @@ include 'header.php';
              <div> <i class="icon-certificate"></i></div>
           </div>
           <h3>Tendering Services</h3>
-          <p>With the increasing complexity of large, multi-component construction programs, clients are increasingly turning to the professionals with the skills, expertise and resources to undertake comprehensive construction management to ensure their projects are delivered to specifications, on time. But to get it done within budget,</p>
-          <p><a class="btn" href="#">View details »</a></p>
+          <p>Welcome to this session, this section of portal deals with all the domestic tenders and the organizations who are looking for Joint Venture (JV) partnerships This is the online destination for government tenders, RFPs, RFQs, RFX in India. You can also find a large no. of tenders publishe</p>
+          <p><a class="btn" href="tenderingservices.php">Read More <i class="icon-arrow-right"></i></a></p>
         </div><!-- /.span4 -->
         <div class="span4">
           <div class="super-mo" style="background-color:rgb(44, 44, 44);color:white">
              <div> <i class="icon-html5"></i></div>
           </div>
           <h3>Execution Team</h3>
-          <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          <p>As an operator in the construction, one has to manage all quality, health & safety and environmental aspects of construction works, from design to completion. Every organization wants to show responsibility by making sure that its facilities, equipment, products and services comply with quality,</p>
+          <p><a class="btn" href="executionteam.php">Read More <i class="icon-arrow-right"></i></a></p>
           
         </div><!-- /.span4 -->
         <div class="span4">
@@ -72,8 +73,8 @@ include 'header.php';
              <div> <i class="icon-level-up"></i></div>
           </div>
           <h3>Supply Chain Management</h3>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn" href="#">View details »</a></p>
+          <p>Supply chain management (SCM) is the combination of art and science that goes into improving the way your company finds the raw components it needs to make a product or service and deliver it to customers. PLAN  This is the strategic portion of SCM. You need a strategy for managing all the re</p>
+          <p><a class="btn" href="supplychainmanagement.php">Read More <i class="icon-arrow-right"></i></a></p>
         </div><!-- /.span4 -->
       </div><!-- /.row -->
 
@@ -85,26 +86,53 @@ include 'header.php';
              <div> <i class="icon-shield"></i></div>
           </div>
           <h3>Legal Advisory Services</h3>
-          <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
-          <p><a class="btn" href="#">View details »</a></p>
+          <p>Arbitration in a mode for settlement of disputes between the parties. It has a social purpose to fulfill. Today, it has urgency when there has been an explosion of litigation in the courts of Law. The judicial system prevalent in courts is governed by procedural Laws. Many provisions are very techni</p>
+          <p><a class="btn" href="legaladvisoryservices.php">Read More <i class="icon-arrow-right"></i></a></p>
         </div><!-- /.span4 -->
         <div class="span4">
           <div class="super-mo" style="background-color:rgb(44, 44, 44);color:white">
              <div> <i class="icon-code"></i></div>
           </div>
           <h3>Quality Assurance</h3>
-          <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn" href="#">View details »</a></p>
+          <p>As an operator in the construction, one has to manage all quality, health & safety and environmental aspects of construction works, from design to completion. Every organization wants to show responsibility by making sure that its facilities, equipment, products and services comply with quality,</p>
+          <p><a class="btn" href="qualityassurance.php">Read More <i class="icon-arrow-right"></i></a></p>
         </div><!-- /.span4 -->
         <div class="span4">
           <div class="super-mo" style="background-color:rgb(44, 44, 44);">
              <div> <i class="icon-terminal on icon-sign-blank"></i></div>
           </div>
           <h3>Human Resources</h3>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn" href="#">View details <i class="icon-arrow-right"></i> </a></p>
+          <p>Human resource management (HRM, or simply HR) is the management of an organization's workforce, or human resources. It is responsible for the attraction, selection, training, assessment, and rewarding of employees, while also overseeing organizational leadership and culture, and ensuring compliance</p>
+          <p><a class="btn" href="humanresources.php">Read More <i class="icon-arrow-right"></i></a></p>
         </div><!-- /.span4 -->
       </div><!-- /.row -->
+      <div class="row-fluid">
+        <div class="span4">
+          <div class="super-mo" style="background-color:rgb(44, 44, 44);">
+             <div> <i class="icon-shield"></i></div>
+          </div>
+          <h3>P&M Bridging</h3>
+          <p>As an operator in the construction, one has to manage all quality, health & safety and environmental aspects of construction works, from design to completion. Every organization wants to show responsibility by making sure that its facilities, equipment, products and services comply with quality,</p>
+          <p><a class="btn" href="plantmachinery.php">Read More <i class="icon-arrow-right"></i></a></p>
+        </div><!-- /.span4 -->
+        <div class="span4">
+          <div class="super-mo" style="background-color:rgb(44, 44, 44);color:white">
+             <div> <i class="icon-code"></i></div>
+          </div>
+          <h3>Finance & Accounting</h3>
+          <p>rbitration in a mode for settlement of disputes between the parties. It has a social purpose to fulfill. Today, it has urgency when there has been an explosion of litigation in the courts of Law. The judicial system prevalent in courts is governed by procedural Laws. Many provisions are very techni</p>
+          <p><a class="btn" href="financeaccounting.php">Read More <i class="icon-arrow-right"></i></a></p>
+        </div><!-- /.span4 -->
+        <div class="span4">
+          <div class="super-mo" style="background-color:rgb(44, 44, 44);">
+             <div> <i class="icon-terminal on icon-sign-blank"></i></div>
+          </div>
+          <h3>Consultancy Services</h3>
+          <p>Under the flagship of M/s. PAYOSHNI TECHNO SOLUTIONS PVT. LTD. and with a mission of â€œGetting Quality Project Outputâ€, we offers an integrated suite of services across all sectors of infrastructure. A complete focus on infrastructure development has enabled us to provide these services through a</p>
+          <p><a class="btn" href="civilconsultancyservices.php">Read More <i class="icon-arrow-right"></i> </a></p>
+        </div><!-- /.span4 -->
+      </div><!-- /.row -->
+
 
 
     <!-- Testimonials -->

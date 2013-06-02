@@ -21,6 +21,7 @@ include 'header.php';
         </div>
       </header>
       <div class="container">
+        
         <div class="row-fluid">
           <div class="span12">
             <figure>
@@ -28,6 +29,7 @@ include 'header.php';
             </figure>
           </div>
         </div>
+
         <div class="row-fluid">
           <div class="span9">
 

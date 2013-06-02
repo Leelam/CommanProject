@@ -32,7 +32,7 @@ $obj=new connect();
          <?php
 $Execution=$obj->conn->prepare("SELECT * FROM civil_et");
 $Execution->execute();
-                    echo "   <table class='table table-bordered'>";
+                    echo "   <table class='table table-bordered table-striped '>";
 echo "<th>s.no</th>";
 echo "<th>Name of the Firm/Contractor</th>";
 echo "<th>Nature of work experience</th>";
@@ -46,10 +46,10 @@ while($Executionteam=$Execution->fetch()){
 <td><?php echo $Executionteam['sno']; ?></td>
 <td><?php echo $Executionteam['fname']; ?></td>
 <td><?php echo $Executionteam['designation']; ?></td>
-<td>Hyderabad</td>
+<td></td>
 <td><?php echo $Executionteam['phone']; ?></td>
-<td>leelam</td>
-<td>No remarks</td>
+<td></td>
+<td></td>
 </tr>
                        <?php
 }

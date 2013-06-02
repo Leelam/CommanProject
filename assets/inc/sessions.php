@@ -9,7 +9,7 @@ $loadedAccessLevel = $_SESSION['accesslevel'];
 $lm_unique = $_SESSION['lm_unique'];
 $GLOBALS['userpath'] =  $userpath = $_SESSION['userpath'];
 // http://localhost/cms/
-define('SITE_BASE_PATH','http://localhost/GITHUB/CommanProject/');
+define('SITE_BASE_PATH','http://infradaily.com/');
 
 
 

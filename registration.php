@@ -110,7 +110,7 @@ include 'header.php';
 	</div>
 </div>
 <div class="control-group">
-	<label class="control-label" for="designation">Designation</label>
+	<label class="control-label" for="designation">Functional Area</label>
 	<div class="controls">
 		<select name="designation" required>
 			<option value="Not Selected">Select Designation</option>

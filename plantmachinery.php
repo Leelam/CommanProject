@@ -38,7 +38,7 @@ echo "<th>Name of the Firm/Vendor</th>";
 echo "<th>Equipment Name</th>";
 echo "<th>Model & Make</th>";
 echo "<th>Location</th>";
-echo "<th>Location For Hire / For Sale</th>";
+echo "<th>For Hire / For Sale</th>";
 echo "<th>Contact Details</th>";
 echo "<th>Photographs</th>";
 while($Executionteam=$Execution->fetch()){
@@ -46,12 +46,12 @@ while($Executionteam=$Execution->fetch()){
 <tr>
 <td><?php echo $Executionteam['sno']; ?></td>
 <td><?php echo $Executionteam['fname']; ?></td>
-<td><?php echo $Executionteam['designation']; ?></td>
-<td>Hyderabad</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
 <td><?php echo $Executionteam['phone']; ?></td>
-<td>leelam</td>
-<td>No remarks</td>
-<td>View/Download</td>
+<td></td>
 </tr>
                        <?php
 }

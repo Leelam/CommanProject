@@ -1,9 +1,9 @@
 <?php
 require_once('Config.class.php');
 require_once('sessions.php');
-$lm_db_lmuser = 'root';
-$lm_db_lmpassword='';
-$lm_db_lmname = "civil";
+$lm_db_lmuser = 'infradai';
+$lm_db_lmpassword='Qna2cu93K7';
+$lm_db_lmname = "infradai_civil";
 global $lm_db_lmname,$lm_db_lmpassword,$lm_db_lmuser;
 
 

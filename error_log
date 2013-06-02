@@ -1,0 +1,7 @@
+[02-Jun-2013 10:21:51 Asia/Calcutta] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/infradai/public_html/supplychainmanagement.php on line 33
+[02-Jun-2013 10:40:04 Asia/Calcutta] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/infradai/public_html/humanresources.php on line 33
+[02-Jun-2013 10:41:20 Asia/Calcutta] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/infradai/public_html/plantmachinery.php on line 33
+[02-Jun-2013 10:46:05 Asia/Calcutta] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/infradai/public_html/humanresources.php on line 33
+[02-Jun-2013 11:35:16 Asia/Calcutta] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/infradai/public_html/executionteam.php on line 33
+[02-Jun-2013 11:36:22 Asia/Calcutta] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/infradai/public_html/executionteam.php on line 33
+[02-Jun-2013 18:20:06 Europe/Berlin] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/infradai/public_html/legaladvisoryservices.php on line 37

@@ -27,7 +27,12 @@ include 'header.php';
         <div class="container">
           <div class="row-fluid">
         <div class="span9">
-          <h4>Updating the content</h4>
+          <blockquote>
+  <p>" A man would do nothing, if he could do so well that no one would find fault with what he had done"</p>
+  <small class="pull-right">CARDIAL NEWMAN </small>
+</blockquote>
+<p>we constantly strive to imbibe the philosophy of Infinity to shape our vision, strategy, people empowerment, and our approach to our business. </p>
+<P>As we orbit into a higher realm,we need to sustain the momentum and play a lead role in the infrastructure domain. We need to reequip ourselves with all that it takesto continually evolve to remain the fittest for the business ecology as it evolves</p>
             </div>
             <div class="span3">
 <?php  

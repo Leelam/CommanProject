@@ -492,3 +492,6 @@ figure{
 
 }
 .nav-tabs > li, .nav-pills > li { float: left; font-size: 15px; font-weight: bold; }
+p{
+text-align:justify
+}
