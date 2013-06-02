@@ -7,11 +7,11 @@ Description: preperforably right, also use left
 ?>
 <div class="bs-docs-sidebar">
         <ul class="nav nav-list bs-docs-sidenav">
-          <li><a href="#download-bootstrap"><i class="icon-chevron-right"></i> Download</a></li>
-          <li><a href="#file-structure"><i class="icon-chevron-right"></i> File structure</a></li>
-          <li><a href="#contents"><i class="icon-chevron-right"></i> What's included</a></li>
-          <li><a href="#html-template"><i class="icon-chevron-right"></i> HTML template</a></li>
-          <li><a href="#examples"><i class="icon-chevron-right"></i> Examples</a></li>
-          <li><a href="#what-next"><i class="icon-chevron-right"></i> What next?</a></li>
+          <li><a href="home.php"><i class="icon-chevron-right"></i> Home</a></li>
+          <li><a href="companyprofile.php"><i class="icon-chevron-right"></i> Company Profile</a></li>
+          <li><a href="directorsmessage.php"><i class="icon-chevron-right"></i> Director's Message</a></li>
+          <li><a href="vision.php"><i class="icon-chevron-right"></i> Vision</a></li>
+          <li><a href="qualitypolicyobjectives.php"><i class="icon-chevron-right"></i> Qualit Policy & Obectives</a></li>
+          
         </ul>
 </div>
